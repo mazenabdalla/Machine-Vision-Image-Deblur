@@ -36,7 +36,7 @@ function theta = getBlurDirection(imageLocation)
             for y=ceil(-filterSize/2):floor(filterSize/2)
     
                 filter(x+floor(filterSize/2)+1, y+floor(filterSize/2)+1, theta) = rg(x/res, y/res, theta*pi/180);
-    
+
             end
     
         end
